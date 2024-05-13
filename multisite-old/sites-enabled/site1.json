@@ -1,0 +1,7 @@
+{
+    "hostAlias":[
+        "site1.com",
+        "www.site1.com"
+    ],
+    "webroot":"../site1"
+}

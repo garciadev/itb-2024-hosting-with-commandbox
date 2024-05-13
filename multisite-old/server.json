@@ -1,14 +1,10 @@
 {
-    "name":"commandbox-test-multi-site-siteConfigFiles-globbing",
+    "name":"commandbox-multisite",
     "web":{
         "accessLogEnable":"true",
-        "aliases":{
-            "/js":"javascript"
-        },
+        "aliases":{},
         "allowedExt":"log",
-        "errorPages":{
-            "404":"404.cfm"
-        },
+        "errorPages":{},
         "GZIPEnable":"true",
         "gzipPredicate":"regex('^.*\\.txt$')",
         "mimeTypes":{
@@ -36,10 +32,5 @@
         "rotateLog":true,
         "standardOutPath":"logs/service_out.log",
         "errorOutPath":"logs/service_error.log"
-    },
-    "cfconfig":{
-        "web-site1":"site1/.cfconfig-site1-web.json",
-        "web-site2":"site2/.cfconfig-site2-web.json",
-        "web-site3":"site3/.cfconfig-site3-web.json"
     }
 }
