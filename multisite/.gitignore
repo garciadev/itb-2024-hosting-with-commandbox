@@ -1,0 +1,10 @@
+# General Ignores + IDE
+.DS_Store
+settings.xml
+WEB-INF
+.env
+.vscode
+.settings
+.project
+.ssl
+web.config
