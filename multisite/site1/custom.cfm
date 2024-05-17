@@ -1,1 +1,3 @@
-Site1 Home page
+<h1>Site 1 Home page (<cfoutput>#cgi.SCRIPT_NAME#</cfoutput>)</h1>
+
+<cfdump var="#cgi#">

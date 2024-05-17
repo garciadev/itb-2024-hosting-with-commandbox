@@ -1,0 +1,8 @@
+{
+    "name":"reverseProxy",
+    "web":{
+        "rewrites":{
+            "enable":"true"
+        }
+    }
+}

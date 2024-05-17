@@ -1,5 +1,5 @@
 {
-    "name":"commandbox-test-multi-site-siteConfigFiles-globbing",
+    "name":"commandbox-multi-site",
     "web":{
         "accessLogEnable":"true",
         "aliases":{
