@@ -30,13 +30,6 @@
         "siteMissing.com",
         "www.siteMissing.com"
     ],
-    "service":{
-        "serviceName":"BOX_Multisite",
-        "displayName":"BOX_Multisite",
-        "rotateLog":true,
-        "standardOutPath":"logs/service_out.log",
-        "errorOutPath":"logs/service_error.log"
-    },
     "cfconfig":{
         "web-site1":"site1/.cfconfig-site1-web.json",
         "web-site2":"site2/.cfconfig-site2-web.json",
