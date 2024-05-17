@@ -1,0 +1,11 @@
+{
+    "name":"Standalone",
+    "service":{
+        "serviceName":"BOX_ITB_Standalone"
+    },
+    "web":{
+        "rewrites":{
+            "enable":"true"
+        }
+    }
+}

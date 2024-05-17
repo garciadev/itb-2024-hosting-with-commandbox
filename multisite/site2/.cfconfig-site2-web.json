@@ -1,0 +1,35 @@
+{
+    "adminSalt":"5A3BCDD0-842D-49D4-BDE09AB63259C3A9",
+    "datasources":{
+        "fooSite2":{
+            "allowAlter":true,
+            "allowCreate":true,
+            "allowDelete":true,
+            "allowDrop":true,
+            "allowGrant":true,
+            "allowInsert":true,
+            "allowRevoke":true,
+            "allowSelect":true,
+            "allowUpdate":true,
+            "blob":"false",
+            "class":"com.microsoft.sqlserver.jdbc.SQLServerDriver",
+            "clob":"false",
+            "connectionLimit":"-1",
+            "connectionTimeout":"1",
+            "custom":"DATABASENAME=installnet&SelectMethod=direct",
+            "database":"installnet",
+            "dbdriver":"MSSQL",
+            "dsn":"jdbc:sqlserver://{host}:{port}",
+            "host":"localhost",
+            "liveTimeout":"15",
+            "metaCacheTimeout":"60000",
+            "password":"installnet",
+            "port":"1433",
+            "storage":"false",
+            "username":"installnet",
+            "validate":"false"
+        }
+    },
+    "developerMode":"false",
+    "hspw":"99a5eeb38d1914c15438c4a78f7a1b1d429e7eb60e1ac1a9825cb86fd6f39d8f"
+}
